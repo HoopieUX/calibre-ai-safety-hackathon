@@ -1,65 +1,60 @@
-import Image from "next/image";
+import Link from "next/link";
+import { OPERATIONS_RUBRIC } from "@/lib/rubric/operations";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="flex flex-1 flex-col items-center justify-center bg-slate-50 px-6 py-24">
+      <div className="max-w-3xl text-center">
+        <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-indigo-600">
+          AI Safety Hiring — Proof of Concept
+        </p>
+        <h1 className="mb-4 text-4xl font-bold text-slate-900">
+          {OPERATIONS_RUBRIC.jobTitle} @ {OPERATIONS_RUBRIC.org}
+        </h1>
+        <p className="mb-10 text-lg text-slate-600">
+          A candidate questionnaire scored against a structured AI safety hiring rubric, with a
+          recruiter dashboard showing per-criterion scores, evidence, and flags.
+        </p>
+
+        <div className="mb-10 rounded-lg border border-slate-200 bg-white p-5 text-left text-sm text-slate-600">
+          <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-indigo-600">
+            About this prototype
+          </h2>
+          <p>
+            Instead of self-rating sliders, candidates answer open-ended questions about their
+            experience (text, voice, or video). An LLM scores each answer against a written
+            rubric of 1/3/5 anchor descriptions, producing a per-criterion score, rationale, and
+            quoted evidence — so a human reviewer can see exactly why a score was given, not just
+            the number.
+          </p>
+          <p className="mt-2">
+            Role readiness and &ldquo;cultural fit&rdquo; (judgment traits like epistemic rigour
+            and strategic foresight) are scored separately and shown side by side — readiness is
+            the floor, cultural fit is the ceiling, and the two shouldn&apos;t be blended into one
+            score.
+          </p>
+          <p className="mt-2">
+            This is a static demo: the dashboard shows a handful of example candidates already
+            scored this way, and the Apply form is fully interactive but isn&apos;t wired to live
+            scoring here.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+
+        <div className="flex flex-col justify-center gap-4 sm:flex-row">
+          <Link
+            href="/apply"
+            className="rounded-lg bg-indigo-600 px-6 py-3 text-base font-semibold text-white shadow hover:bg-indigo-700"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            Apply for this role
+          </Link>
+          <Link
+            href="/dashboard"
+            className="rounded-lg border border-slate-300 bg-white px-6 py-3 text-base font-semibold text-slate-700 shadow hover:bg-slate-100"
           >
-            Documentation
-          </a>
+            Recruiter dashboard
+          </Link>
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
   );
 }

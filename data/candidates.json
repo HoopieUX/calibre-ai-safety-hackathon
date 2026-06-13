@@ -1,0 +1,531 @@
+[
+  {
+    "id": "59403b43-6ef8-46fa-a5e2-e1730ef4e04f",
+    "name": "Jamie Test",
+    "email": "jamie@example.com",
+    "roleId": "operations",
+    "submittedAt": "2026-06-13T15:02:31.347Z",
+    "linkedinUrl": "https://linkedin.com/in/jamietest",
+    "cvText": "",
+    "hasCv": false,
+    "categoryAnswers": {
+      "org-operations": "At my last role at a research nonprofit, I ran our visiting fellows programme end to end for 18 months: managed a budget of around £150k, tracked deliverables for 12 fellows across quarterly OKRs using Notion and Airtable, and built our applicant tracking pipeline from scratch, sourcing about 40% of hires directly via LinkedIn and community referrals. I also handled grant reporting for two funders, including reconciling budget vs actuals each quarter.",
+      "org-design": "I noticed our weekly leadership sync was unproductive because nobody prepped. I designed a lightweight pre-read template and async agenda doc, rolled it out across the team with a short training session, and within a month meeting time dropped by a third while decisions got documented properly. I also wrote our first ops handbook so new starters didn't have to ask the same questions repeatedly.",
+      "field-awareness": "I know AI safety is important and growing.",
+      "soft-skills": "I supported our Executive Director directly for two years as a de facto chief of staff — managing her calendar, prepping board materials, and handling sensitive personnel conversations during a restructuring. I wrote the board memo that secured approval for our 2025 strategy, which the board chair specifically praised for clarity.",
+      "ai-fluency": "I use ChatGPT sometimes to write emails faster."
+    },
+    "traitAnswers": {
+      "adversarial-grit": "When I built our applicant tracking system, I realised candidates could see each other's interview slots in a shared calendar, which could leak who else was being considered for a role — a confidentiality risk nobody had flagged. I restructured the calendar permissions before it caused a problem. More broadly, with any process I build I now ask 'who could see something they shouldn't, or game this for an outcome we don't want' before rolling it out.",
+      "epistemic-rigour": "I once pushed hard for a new project management tool because it had worked brilliantly at my previous org. Six months after rollout, adoption was low. I assumed it was a training issue, but when I actually interviewed the team, it turned out the tool didn't fit how our distributed team worked across time zones — my prior experience didn't generalise the way I assumed. We do not know something works until the people actually using it tell us, not until it works for me.",
+      "strategic-foresight": "Everyone assumes our funder relationships are stable because we've had the same two funders for years. But if either funder shifted strategy even slightly, we'd have no diversified pipeline and our runway would be maybe 6 months. Nobody talks about this because the current relationships feel fine day to day, but the operational dependency is total - we have no developed relationships with any other funders at all.",
+      "conceptual-engineering": "Take 'supporting researcher wellbeing' - that's too vague to act on. I'd break it into: response time on admin requests (measurable, target under 24h), protected deep-work blocks per week (measurable, tracked via calendar audit), and a quarterly anonymous pulse survey on workload sustainability (a proxy for the harder-to-measure burnout risk). None of these alone is 'wellbeing' but together they let you notice when something's slipping before someone quits."
+    },
+    "criterionScores": [
+      {
+        "criterionId": "org-operations.project-programme-management",
+        "score": 5,
+        "rationale": "The candidate describes running a complex programme end-to-end for 18 months, managing 12 fellows across multiple workstreams, using both Notion and Airtable as PM tools, and explicitly tracking deliverables against quarterly OKRs. This hits every marker for a score of 5.",
+        "evidence": "\"ran our visiting fellows programme end to end for 18 months... tracked deliverables for 12 fellows across quarterly OKRs using Notion and Airtable\""
+      },
+      {
+        "criterionId": "org-operations.financial-management-grants",
+        "score": 5,
+        "rationale": "The candidate managed a £150k budget, performed quarterly budget vs. actuals reconciliation, and handled grant reporting for two funders — covering budget management, funder reporting requirements, and compliance tracking. This is a clear score-5 profile.",
+        "evidence": "\"managed a budget of around £150k... handled grant reporting for two funders, including reconciling budget vs actuals each quarter\""
+      },
+      {
+        "criterionId": "org-operations.hiring-talent-pipelines",
+        "score": 5,
+        "rationale": "The candidate explicitly built an applicant tracking pipeline from scratch and proactively sourced passive candidates via LinkedIn and community referrals, accounting for ~40% of hires. This directly matches all score-5 anchors.",
+        "evidence": "\"built our applicant tracking pipeline from scratch, sourcing about 40% of hires directly via LinkedIn and community referrals\""
+      },
+      {
+        "criterionId": "org-design.strategy-prioritisation-support",
+        "score": 2,
+        "rationale": "The candidate shows initiative in identifying a problem and improving a leadership meeting, but the evidence is process/operational rather than strategic. Designing a pre-read template and agenda doc is adjacent to strategy support but does not demonstrate running org-level planning processes, managing exec bandwidth, or writing strategy documents. There is no mention of synthesising inputs into strategic recommendations or owning a planning cycle. Slightly above a 1 because the work touches leadership decision-making infrastructure, but falls well short of a 3.",
+        "evidence": "\"I designed a lightweight pre-read template and async agenda doc, rolled it out across the team... within a month meeting time dropped by a third while decisions got documented properly.\" No mention of strategic planning processes, strategy documents, or exec bandwidth management."
+      },
+      {
+        "criterionId": "org-design.systems-process-design",
+        "score": 4,
+        "rationale": "The candidate demonstrates clear ownership of designing and rolling out a new process from scratch (pre-read template + async agenda doc), includes a change management element (short training session), and shows measurable impact (meeting time down by a third, decisions documented). They also built an ops handbook — a lightweight but meaningful piece of operations infrastructure. This falls just short of a 5 because the scope appears limited to one team/meeting cadence rather than org-wide infrastructure, and no mention of more complex tooling (Airtable, Notion, etc.) or multi-team rollouts.",
+        "evidence": "\"I designed a lightweight pre-read template and async agenda doc, rolled it out across the team with a short training session\" and \"I also wrote our first ops handbook so new starters didn't have to ask the same questions repeatedly.\""
+      },
+      {
+        "criterionId": "field-awareness.ai-safety-landscape",
+        "score": 1,
+        "rationale": "The candidate's response is extremely vague and superficial. They demonstrate no ability to name key AI safety organizations, describe their mandates, explain funding dynamics, or situate the field within the EA/longtermist ecosystem. This is a clear red flag matching the score 1 anchor precisely.",
+        "evidence": "\"I know AI safety is important and growing.\" — This single sentence is the entirety of the candidate's response, offering no substantive knowledge of the AI safety org landscape."
+      },
+      {
+        "criterionId": "soft-skills.discretion-executive-support",
+        "score": 5,
+        "rationale": "The candidate explicitly served as a de facto Chief of Staff to an Executive Director for two years, which maps directly to the top anchor. They handled sensitive personnel conversations during a restructuring — precisely the kind of high-stakes, confidential work the criterion highlights.",
+        "evidence": "I supported our Executive Director directly for two years as a de facto chief of staff — managing her calendar, prepping board materials, and handling sensitive personnel conversations during a restructuring."
+      },
+      {
+        "criterionId": "soft-skills.written-communication",
+        "score": 5,
+        "rationale": "The candidate produced a board-level memo that directly led to a strategic outcome (board approval of the 2025 strategy) and received specific praise from the board chair for clarity. This matches the top anchor of writing documents that are 'acted upon' at the board level.",
+        "evidence": "I wrote the board memo that secured approval for our 2025 strategy, which the board chair specifically praised for clarity."
+      },
+      {
+        "criterionId": "ai-fluency.mindset-building-accountability",
+        "score": 1,
+        "rationale": "The candidate's response is a single sentence describing purely ad hoc, one-off use of AI (drafting emails faster). There is no mention of repeatable workflows, measurable impact, critical evaluation of outputs, iteration, or any evolution in their AI usage. This is a textbook Score 1 red flag: AI is used occasionally for a single low-stakes task with no evidence of deeper engagement.",
+        "evidence": "\"I use ChatGPT sometimes to write emails faster.\" — describes sporadic, single-tool, single-task use with no indication of systems, accountability, or thought partnership."
+      }
+    ],
+    "traitScores": [
+      {
+        "criterionId": "adversarial-grit",
+        "score": 4,
+        "rationale": "The candidate demonstrates a genuine adversarial reflex — they spotted a non-obvious confidentiality vulnerability (calendar slot visibility leaking candidate identities) unprompted, before it caused harm, and proactively fixed it. This goes beyond being pointed at a problem; they identified it themselves during build. The closing heuristic ('who could see something they shouldn't, or game this') shows a methodical, institutionalised habit rather than a one-off catch. It falls just short of a 5 because the failure mode, while real and non-trivial, is relatively contained in scope (a calendar permissions issue rather than a systemic or adversarial AI-specific failure), and there is no evidence of the slightly unsettled 'how did others miss this?' quality or tracing a deeper causal mechanism. Still, this is a strong signal of the underlying reflex.",
+        "evidence": "\"I realised candidates could see each other's interview slots in a shared calendar, which could leak who else was being considered for a role — a confidentiality risk nobody had flagged. I restructured the calendar permissions before it caused a problem.\" and \"I now ask 'who could see something they shouldn't, or game this for an outcome we don't want' before rolling it out.\""
+      },
+      {
+        "criterionId": "epistemic-rigour",
+        "score": 4,
+        "rationale": "The candidate demonstrates genuine epistemic humility by catching and correcting their own flawed generalisation — they assumed prior success would transfer, then revised that belief based on direct evidence from the people affected. Crucially, they did not wait to be prompted; the story is self-initiated. The closing line ('We do not know something works until the people actually using it tell us, not until it works for me') explicitly distinguishes personal experience from generalised knowledge, which echoes the Score 5 anchor's 'we did not find it' vs 'it is not there' distinction. However, the response stops short of a full Score 5 because it does not actively dismantle the new position it arrives at (i.e., the candidate does not interrogate whether 'asking users' is itself always sufficient or could be biased), and the reflection, while genuine, is retrospective and relatively low-stakes — there is no evidence of doing this under social pressure or when the room agrees with them.",
+        "evidence": "'I assumed it was a training issue, but when I actually interviewed the team, it turned out the tool didn't fit how our distributed team worked across time zones — my prior experience didn't generalise the way I assumed. We do not know something works until the people actually using it tell us, not until it works for me.'"
+      },
+      {
+        "criterionId": "strategic-foresight",
+        "score": 5,
+        "rationale": "The candidate unprompted identifies a boring, structural, non-obvious dependency — concentrated funder reliance — that is invisible day-to-day precisely because the relationships 'feel fine.' They trace the downstream consequence concretely (6-month runway cliff), name the mechanism (no diversified pipeline, zero developed alternative relationships), and explain why the risk is systematically ignored (normalcy bias from relationship stability). This is exactly the rubric's 'boring and structural, not sci-fi' ideal: no speculation about future AI threats, just a cold-eyed read of an existing dependency nobody is checking.",
+        "evidence": "\"Everyone assumes our funder relationships are stable because we've had the same two funders for years. But if either funder shifted strategy even slightly, we'd have no diversified pipeline and our runway would be maybe 6 months. Nobody talks about this because the current relationships feel fine day to day, but the operational dependency is total - we have no developed relationships with any other funders at all.\""
+      },
+      {
+        "criterionId": "conceptual-engineering",
+        "score": 5,
+        "rationale": "The candidate demonstrates textbook conceptual engineering. They start by naming the vague concept ('supporting researcher wellbeing'), immediately flag its operational uselessness, and then decompose it into three distinct, measurable proxies: response time on admin requests (with a concrete SLA target), protected deep-work blocks (tracked via calendar audit), and a quarterly anonymous pulse survey (explicitly called out as a proxy for harder-to-measure burnout risk). Crucially, the candidate also shows epistemic humility and tolerance for ambiguity — they explicitly note that 'none of these alone is wellbeing,' resisting the temptation to over-identify any single proxy with the underlying value. The closing observation ('let you notice when something's slipping before someone quits') demonstrates preserved intent: the decomposition serves the original value rather than replacing it. This is precisely the disposition that prevents safety failures at the value-to-proxy gap.",
+        "evidence": "'Take 'supporting researcher wellbeing' - that's too vague to act on. I'd break it into: response time on admin requests (measurable, target under 24h), protected deep-work blocks per week (measurable, tracked via calendar audit), and a quarterly anonymous pulse survey on workload sustainability (a proxy for the harder-to-measure burnout risk). None of these alone is 'wellbeing' but together they let you notice when something's slipping before someone quits.'"
+      }
+    ],
+    "computed": {
+      "weightedScore": 3.8947368421052633,
+      "readinessPercent": 77.89473684210526,
+      "culturalFitScore": 4.5,
+      "culturalFitPercent": 90,
+      "roleFlags": {
+        "red": [
+          "org-design.strategy-prioritisation-support",
+          "field-awareness.ai-safety-landscape",
+          "ai-fluency.mindset-building-accountability"
+        ],
+        "green": [
+          "org-operations.project-programme-management",
+          "org-operations.financial-management-grants",
+          "org-operations.hiring-talent-pipelines",
+          "org-design.systems-process-design",
+          "soft-skills.discretion-executive-support",
+          "soft-skills.written-communication"
+        ]
+      },
+      "culturalFitFlags": {
+        "red": [],
+        "green": [
+          "adversarial-grit",
+          "epistemic-rigour",
+          "strategic-foresight",
+          "conceptual-engineering"
+        ]
+      }
+    },
+    "scoringErrors": []
+  },
+  {
+    "id": "a1b2c3d4-1111-4aaa-8b11-111111111111",
+    "name": "Maya Okonjo",
+    "email": "maya.okonjo@example.com",
+    "roleId": "operations",
+    "submittedAt": "2026-06-10T09:15:00.000Z",
+    "linkedinUrl": "https://linkedin.com/in/mayaokonjo",
+    "cvText": "",
+    "hasCv": false,
+    "categoryAnswers": {
+      "org-operations": "At GovAI, I managed our visiting researcher programme for three years — at any given time I had 15-20 fellows across four different funding streams, each with its own contract terms, stipend schedule, and reporting deadline. I tracked everything in a custom Airtable base linked to our finance system, ran quarterly OKR reviews with each fellow's supervisor, and managed a combined annual budget of roughly £900k. I also rebuilt our research assistant hiring pipeline from scratch — moving from ad hoc referrals (about 5 hires a year) to a structured rolling pipeline with a standardised scoring rubric, which cut time-to-hire by 40% and let us make 14 hires in one year without sacrificing quality. When a major funder delayed a tranche payment last year, I restructured cash flow across cost centres so no fellow's stipend was late, while renegotiating the funder's reporting timeline.",
+      "org-design": "When I joined, leadership ran an annual planning process that was really just six separate team plans stapled together with no shared priorities. I designed and facilitated a new quarterly OKR cycle: each team submits draft objectives, I synthesise them into a single cross-org document highlighting overlaps and resourcing conflicts, and I run a half-day leadership session to agree trade-offs. I also built the org's first capacity-planning model in Airtable so leadership can see, in real time, which teams are over-committed before they agree to new projects. The first cycle surfaced that two teams were both planning to hire the same specialist role — we caught it three months before it would have become a budget problem.",
+      "field-awareness": "The field roughly splits into technical safety research (Redwood, ARC, MIRI's legacy work, Apollo, METR doing evals), governance/policy (GovAI, CSET, the AI Safety Institutes in the UK and US), and a layer of grantmaking and field-building (Open Philanthropy, Longview, MATS, BlueDot). Most of these orgs are tightly networked — researchers move between them, and a lot of funding ultimately traces back to Open Phil or a handful of other major donors. The biggest operational bottleneck I've seen first-hand is talent: orgs are growing faster than their ops/people functions, so research time gets eaten by admin, and a lot of promising technical people churn out because there's no one managing their onboarding, visas, or career progression.",
+      "soft-skills": "I was de facto Chief of Staff to GovAI's Research Director for three years — owned her calendar and travel, prepped board papers, and was often the first person told about sensitive personnel issues (a researcher's visa falling through, a funder relationship going wrong) so I could start working the problem before it became urgent. On the writing side, I'm proudest of a strategy memo I wrote proposing we restructure our fellowship programme around three tracks instead of one undifferentiated cohort — it went to the board, was approved, and the new structure increased fellow retention from about 60% to 85% over the following two cohorts.",
+      "ai-fluency": "I've built two AI workflows that are now part of how the whole ops team works. The first takes our raw meeting transcripts (via Otter) and runs them through a Claude prompt I iterated on over months to produce action-item lists tagged by owner, which get posted into our project tracker automatically — before this, action items routinely got lost. The second is a grant-reporting assistant: I feed it our raw activity logs and a funder's report template, it drafts a first pass, and I review and correct it — this cut report drafting time from about two days to half a day. I track a simple accuracy log for both so I can see when the prompts need retuning, and I've trained two other ops staff to use and improve them."
+    },
+    "traitAnswers": {
+      "adversarial-grit": "I built the capacity-planning model I mentioned, which shows each team's committed hours against capacity. The way someone could game it: a team lead could simply under-report their team's commitments to make their capacity look healthier, or over-report a 'placeholder' project to grab headcount before anyone notices it's not real work. I added two safeguards — commitments above a threshold need a linked deliverable in the project tracker (so phantom projects are visible), and I cross-check reported hours against actual calendar load quarterly. It's an honesty-assumes-good-faith system at heart, so the real fix is making gaming visible quickly rather than preventing it outright.",
+      "epistemic-rigour": "I was convinced our fellowship retention problem was about money — fellows were leaving for better-paid roles, so I pushed hard for a stipend increase, which leadership approved. Retention barely moved. When I actually sat down with the fellows who'd left, the real issue was that they felt isolated — no peer cohort, no sense of progression. I had been so confident it was money that I hadn't actually asked. We restructured around cohorts instead (the three-track change I mentioned), and that's what moved retention. I now treat any 'obviously true' explanation for a people problem as a hypothesis to test, not a starting point — especially when it's the explanation that's easiest for me to act on.",
+      "strategic-foresight": "Everyone assumes our org's compute access is fine because we've never been blocked — we use a single cloud provider's research credits programme. But that programme is a discretionary grant, not a contract; if that provider's safety team's priorities shifted, or if a single person who champions our access left, the credits could simply not be renewed, with maybe two months' notice. Nobody talks about this because it's never gone wrong, and because compute isn't 'our' problem — it sits with the research team. But ops would be the ones scrambling to find emergency budget for commercial compute with no warning, and we have no fallback vendor relationship or budget line for it at all.",
+      "conceptual-engineering": "Take 'meaningful human oversight' of an AI system. On its own that's just a slogan. I'd break it into: (1) a defined set of decision types the system is not allowed to execute without a human sign-off, listed explicitly rather than left implicit; (2) a maximum latency for that sign-off, because oversight that takes a week isn't meaningful for a fast-moving system; (3) evidence that the human reviewer has the information and context needed to actually evaluate the decision, not just a rubber-stamp click; and (4) a log of how often sign-offs are challenged or reversed, because if it's always zero, the oversight step may be theatre. None of these alone is 'meaningful oversight,' and I'd stay open to the idea that even all four together miss something — but they'd let an org actually notice if oversight had quietly become a formality."
+    },
+    "criterionScores": [
+      {
+        "criterionId": "org-operations.project-programme-management",
+        "score": 5,
+        "rationale": "The candidate describes running 15-20 fellows across four funding streams simultaneously, using a custom Airtable system tied to finance, running quarterly OKR reviews, and managing a complex programme end-to-end — including handling a funder cash-flow crisis without disruption. This is a textbook score-5 profile.",
+        "evidence": "\"at any given time I had 15-20 fellows across four different funding streams... ran quarterly OKR reviews with each fellow's supervisor, and managed a combined annual budget of roughly £900k\""
+      },
+      {
+        "criterionId": "org-operations.financial-management-grants",
+        "score": 5,
+        "rationale": "The candidate manages a ~£900k multi-grant budget, has direct experience with funder reporting and negotiating timelines, and proactively restructured cash flow during a funder delay — exactly the funder-reporting and negotiation experience the top anchor describes.",
+        "evidence": "\"managed a combined annual budget of roughly £900k... I restructured cash flow across cost centres so no fellow's stipend was late, while renegotiating the funder's reporting timeline\""
+      },
+      {
+        "criterionId": "org-operations.hiring-talent-pipelines",
+        "score": 5,
+        "rationale": "The candidate built a hiring pipeline from scratch with a standardised scoring rubric, measurably improved time-to-hire by 40%, and scaled hiring volume nearly 3x while maintaining quality — a clear match for the top anchor's 'built hiring pipelines from scratch' and systems for applicant tracking.",
+        "evidence": "\"rebuilt our research assistant hiring pipeline from scratch — moving from ad hoc referrals (about 5 hires a year) to a structured rolling pipeline with a standardised scoring rubric, which cut time-to-hire by 40% and let us make 14 hires in one year\""
+      },
+      {
+        "criterionId": "org-design.strategy-prioritisation-support",
+        "score": 4,
+        "rationale": "The candidate designed and facilitated a cross-org OKR planning process, synthesising team plans into a single prioritised document and running leadership trade-off sessions — strong evidence of facilitating planning and synthesising inputs into recommendations. It falls just short of a 5 because the example is about coordination/synthesis rather than the candidate authoring an org-level strategy document or owning the strategic direction itself.",
+        "evidence": "\"I designed and facilitated a new quarterly OKR cycle... I synthesise them into a single cross-org document highlighting overlaps and resourcing conflicts, and I run a half-day leadership session to agree trade-offs\""
+      },
+      {
+        "criterionId": "org-design.systems-process-design",
+        "score": 5,
+        "rationale": "The candidate designed operations infrastructure from scratch (a capacity-planning model) and rolled out a new org-wide planning system with measurable impact (catching a duplicate hiring conflict three months early). This matches the top anchor's 'designed operations infrastructure from scratch... rolled out new systems across a team.'",
+        "evidence": "\"I built the org's first capacity-planning model in Airtable so leadership can see, in real time, which teams are over-committed... The first cycle surfaced that two teams were both planning to hire the same specialist role\""
+      },
+      {
+        "criterionId": "field-awareness.ai-safety-landscape",
+        "score": 5,
+        "rationale": "The candidate demonstrates deep, first-hand fluency with the AI safety ecosystem — naming specific orgs across technical safety, governance, and field-building, correctly characterising their relationships and funding dynamics, and identifying a real operational bottleneck (talent/ops capacity) from direct experience. This matches the top anchor of having worked in the field and understanding its political and funding dynamics.",
+        "evidence": "\"The field roughly splits into technical safety research (Redwood, ARC, MIRI's legacy work, Apollo, METR...), governance/policy (GovAI, CSET, the AI Safety Institutes...)... a lot of funding ultimately traces back to Open Phil... The biggest operational bottleneck I've seen first-hand is talent\""
+      },
+      {
+        "criterionId": "soft-skills.discretion-executive-support",
+        "score": 5,
+        "rationale": "The candidate served as de facto Chief of Staff to a Research Director for three years, was the first point of contact for sensitive personnel and funder issues, and proactively managed them with discretion — directly matching the top anchor's 'served as a direct CoS... trusted with sensitive negotiations, personnel decisions.'",
+        "evidence": "\"I was de facto Chief of Staff to GovAI's Research Director for three years... was often the first person told about sensitive personnel issues... so I could start working the problem before it became urgent\""
+      },
+      {
+        "criterionId": "soft-skills.written-communication",
+        "score": 4,
+        "rationale": "The candidate wrote a board-level strategy memo that was approved and led to a measurable outcome (retention up from ~60% to 85%), which strongly matches the top anchor's 'documents that are acted upon... board-level reports.' It's scored 4 rather than 5 because only one piece of writing is described in detail, rather than a sustained portfolio of high-stakes documents.",
+        "evidence": "\"I wrote a strategy memo proposing we restructure our fellowship programme around three tracks... it went to the board, was approved, and the new structure increased fellow retention from about 60% to 85%\""
+      },
+      {
+        "criterionId": "ai-fluency.mindset-building-accountability",
+        "score": 4,
+        "rationale": "The candidate has built two repeatable AI-driven workflows embedded in team operations, with measurable impact (report drafting time cut from two days to half a day), tracks an accuracy log to catch drift, and has trained others to use and improve the tools — strong evidence of systems, evaluation, and accountability. Scored 4 rather than 5 because the response doesn't describe an explicit upward trajectory in their own AI use over time beyond these two workflows.",
+        "evidence": "\"I feed it our raw activity logs and a funder's report template, it drafts a first pass, and I review and correct it — this cut report drafting time from about two days to half a day... I track a simple accuracy log for both... and I've trained two other ops staff\""
+      }
+    ],
+    "traitScores": [
+      {
+        "criterionId": "adversarial-grit",
+        "score": 5,
+        "rationale": "The candidate unprompted identifies two distinct gaming vectors in a system they built (under-reporting commitments, phantom placeholder projects), traces the mechanism for each, and designed concrete countermeasures (linked deliverables, quarterly cross-checks). The closing reflection — that the system 'assumes good faith' and the real fix is making gaming visible quickly — shows a methodical, non-cynical security mindset applied to their own work, matching the top anchor precisely.",
+        "evidence": "\"a team lead could simply under-report their team's commitments... or over-report a 'placeholder' project to grab headcount before anyone notices it's not real work. I added two safeguards...\""
+      },
+      {
+        "criterionId": "epistemic-rigour",
+        "score": 4,
+        "rationale": "The candidate describes confidently pushing for a costly intervention (stipend increase) based on an assumption, having it fail to move the metric, then directly investigating with the affected people and discovering their assumption was wrong. The closing commitment to treat 'obviously true' explanations as hypotheses, especially when convenient, shows genuine self-correction. Scored 4 rather than 5 because the dismantling happens after the fact (when the intervention visibly failed) rather than the candidate proactively stress-testing their own belief before acting.",
+        "evidence": "\"I had been so confident it was money that I hadn't actually asked... I now treat any 'obviously true' explanation for a people problem as a hypothesis to test, not a starting point — especially when it's the explanation that's easiest for me to act on.\""
+      },
+      {
+        "criterionId": "strategic-foresight",
+        "score": 4,
+        "rationale": "The candidate identifies a genuinely structural, easy-to-overlook dependency (discretionary compute credits with no contract and no fallback), traces who would actually bear the consequence (ops, not research), and explains why it's invisible (it's never gone wrong, and ownership is ambiguous). This is a strong, boring-and-structural answer. Scored 4 rather than 5 because the failure mode, while real, is a fairly conventional 'single point of failure in a vendor relationship' pattern rather than a more novel or deeply hidden dependency.",
+        "evidence": "\"that programme is a discretionary grant, not a contract; if that provider's safety team's priorities shifted... the credits could simply not be renewed, with maybe two months' notice... we have no fallback vendor relationship or budget line for it at all\""
+      },
+      {
+        "criterionId": "conceptual-engineering",
+        "score": 5,
+        "rationale": "The candidate decomposes 'meaningful human oversight' into four distinct, independently measurable components (scope of reserved decisions, sign-off latency, reviewer context, override/reversal rate), each chosen to preserve the underlying intent rather than just operationalise a convenient proxy. The explicit caveat that even all four together might miss something demonstrates exactly the sustained tolerance for ambiguity and curiosity the top anchor describes, without collapsing into either vagueness or rigid over-definition.",
+        "evidence": "\"(1) a defined set of decision types the system is not allowed to execute without a human sign-off... (2) a maximum latency for that sign-off... (3) evidence that the human reviewer has the information and context... (4) a log of how often sign-offs are challenged or reversed... I'd stay open to the idea that even all four together miss something\""
+      }
+    ],
+    "computed": {
+      "weightedScore": 4.6842105263157895,
+      "readinessPercent": 93.68421052631578,
+      "culturalFitScore": 4.5,
+      "culturalFitPercent": 90,
+      "roleFlags": {
+        "red": [],
+        "green": [
+          "org-operations.project-programme-management",
+          "org-operations.financial-management-grants",
+          "org-operations.hiring-talent-pipelines",
+          "org-design.strategy-prioritisation-support",
+          "org-design.systems-process-design",
+          "field-awareness.ai-safety-landscape",
+          "soft-skills.discretion-executive-support",
+          "soft-skills.written-communication",
+          "ai-fluency.mindset-building-accountability"
+        ]
+      },
+      "culturalFitFlags": {
+        "red": [],
+        "green": [
+          "adversarial-grit",
+          "epistemic-rigour",
+          "strategic-foresight",
+          "conceptual-engineering"
+        ]
+      }
+    },
+    "scoringErrors": []
+  },
+  {
+    "id": "b2c3d4e5-2222-4bbb-8c22-222222222222",
+    "name": "Tom Reyes",
+    "email": "tom.reyes@example.com",
+    "roleId": "operations",
+    "submittedAt": "2026-06-11T13:40:00.000Z",
+    "linkedinUrl": "https://linkedin.com/in/tomreyes",
+    "cvText": "",
+    "hasCv": false,
+    "categoryAnswers": {
+      "org-operations": "At a mid-size consultancy I coordinated logistics for our research events team — we ran about 6 workshops a year, each with 30-50 attendees, and I managed the venue bookings, speaker schedules, and a shared budget spreadsheet of around £40k per event. I used a Trello board to track tasks across the team and flagged budget overruns to my manager when they came up. One event's catering order got duplicated and we ended up over budget by about £2k — I caught it during reconciliation and we adjusted the next event's budget to cover it.",
+      "org-design": "Our weekly team meeting used to run long because people brought up things ad hoc. I put together a shared agenda doc that people add items to in advance, with rough time slots next to each item. It's helped meetings run closer to time, though people still sometimes go over on their item.",
+      "field-awareness": "I know AI safety orgs broadly fall into research labs and policy groups, and that a lot of funding comes from tech philanthropists. I'm not deeply familiar with the specific organisations or how they relate to each other.",
+      "soft-skills": "I've worked closely with our Head of Ops for about two years, helping prepare materials for leadership meetings and handling some confidential scheduling around a reorganisation. For writing, I put together a project brief for a new client onboarding process that the team adopted — it laid out the steps and who owns each one.",
+      "ai-fluency": "I use ChatGPT for drafting emails and sometimes to help summarise long documents before meetings. It saves me some time on the writing side."
+    },
+    "traitAnswers": {
+      "adversarial-grit": "The agenda doc I built relies on people adding their items honestly with realistic time estimates. If someone wanted to dominate the meeting, they could just put a vague item with a short time estimate and then talk for much longer — there's nothing stopping that. I haven't built in a way to catch it, but if it became a problem I'd probably ask the meeting chair to enforce the times more strictly.",
+      "epistemic-rigour": "We switched our event-budget tracking from spreadsheets to a shared tool because I thought it would reduce errors. After a few months, the catering overrun still happened. I think the tool wasn't really the issue — it was more about people not checking it regularly. I'd probably look at making the check-ins part of the process next time.",
+      "strategic-foresight": "I think our reliance on one venue for most events could be a problem if they raised prices or became unavailable, since we don't really have backup options lined up. We'd probably have to scramble to find somewhere else on short notice.",
+      "conceptual-engineering": "For something like 'good communication,' I'd say it means people respond to messages reasonably quickly and meetings have clear outcomes. So maybe you could measure average response time and whether meetings produce a written summary."
+    },
+    "criterionScores": [
+      {
+        "criterionId": "org-operations.project-programme-management",
+        "score": 3,
+        "rationale": "The candidate describes coordinating a recurring set of events with budgets and a shared task-tracking tool (Trello), and shows awareness of catching and correcting an error during reconciliation. This matches the score-3 anchor of managing a project with multiple stakeholders using a PM tool, but doesn't demonstrate running a more complex, cross-functional programme, OKRs, or end-to-end ownership at scale.",
+        "evidence": "\"we ran about 6 workshops a year... I used a Trello board to track tasks across the team and flagged budget overruns to my manager\""
+      },
+      {
+        "criterionId": "org-operations.financial-management-grants",
+        "score": 2,
+        "rationale": "The candidate has managed event budgets (~£40k each) and tracked actuals enough to catch a £2k overrun, which is above 'no experience' — but there's no mention of grants, funder reporting, or compliance requirements, and the budget management described is closer to expense tracking than active management. This sits just below the score-3 anchor of 'managing a team or project budget' with clear budget vs. actuals understanding.",
+        "evidence": "\"managed a shared budget spreadsheet of around £40k per event... One event's catering order got duplicated and we ended up over budget by about £2k — I caught it during reconciliation\". No mention of grants, funders, or compliance reporting."
+      },
+      {
+        "criterionId": "org-operations.hiring-talent-pipelines",
+        "score": 3,
+        "rationale": "No hiring experience is mentioned in this answer at all. Scored at the midpoint pending further information, but on the evidence given this should be treated as essentially unassessed — interviewers should specifically probe hiring experience, as the candidate has not demonstrated even a participant-level role in a hiring process.",
+        "evidence": "No evidence of hiring or talent pipeline experience was provided in the response."
+      },
+      {
+        "criterionId": "org-design.strategy-prioritisation-support",
+        "score": 2,
+        "rationale": "The candidate made a small, useful improvement to a recurring meeting (a shared agenda doc), which is a step above pure task execution. However, there's no evidence of facilitating planning processes, synthesising inputs into recommendations, or supporting any strategic decision — the example is narrowly scoped to meeting logistics.",
+        "evidence": "\"I put together a shared agenda doc that people add items to in advance, with rough time slots next to each item.\" No mention of planning facilitation, synthesis, or strategic recommendations."
+      },
+      {
+        "criterionId": "org-design.systems-process-design",
+        "score": 3,
+        "rationale": "The candidate identified a real process problem (meetings running long) and built a lightweight tool (a shared agenda doc) to address it, which matches the score-3 anchor of having 'documented and improved an existing process' with a lightweight internal tool. It falls short of a 5 because the change is small in scope, has had only partial impact ('people still sometimes go over'), and there's no broader rollout or change management involved.",
+        "evidence": "\"I put together a shared agenda doc... It's helped meetings run closer to time, though people still sometimes go over on their item.\""
+      },
+      {
+        "criterionId": "field-awareness.ai-safety-landscape",
+        "score": 2,
+        "rationale": "The candidate shows slightly more than a vague sense of the field — they correctly identify a broad split between research labs and policy groups, and that funding often comes from tech philanthropists. However, they explicitly state they don't know the specific organisations or how they relate, falling short of the score-3 anchor's requirement to name major orgs, mandates, and key funders.",
+        "evidence": "\"I know AI safety orgs broadly fall into research labs and policy groups, and that a lot of funding comes from tech philanthropists. I'm not deeply familiar with the specific organisations or how they relate to each other.\""
+      },
+      {
+        "criterionId": "soft-skills.discretion-executive-support",
+        "score": 4,
+        "rationale": "The candidate has worked closely with a Head of Ops for two years, including handling confidential scheduling during a sensitive reorganisation — this goes beyond the score-3 anchor's 'handles confidential information professionally' and approaches direct trusted-support territory. Scored 4 rather than 5 because the role is described as supporting rather than serving as a direct CoS/EA, and the scope of sensitive matters described is narrower (scheduling) than e.g. personnel decisions or negotiations.",
+        "evidence": "\"I've worked closely with our Head of Ops for about two years, helping prepare materials for leadership meetings and handling some confidential scheduling around a reorganisation.\""
+      },
+      {
+        "criterionId": "soft-skills.written-communication",
+        "score": 3,
+        "rationale": "The candidate produced a project brief that was adopted by the team, which matches the score-3 anchor of writing 'clear memos, project briefs, and proposals.' There's no evidence of higher-stakes writing such as board-level reports or grant proposals that would justify a 5.",
+        "evidence": "\"I put together a project brief for a new client onboarding process that the team adopted — it laid out the steps and who owns each one.\""
+      },
+      {
+        "criterionId": "ai-fluency.mindset-building-accountability",
+        "score": 2,
+        "rationale": "The candidate uses AI for two distinct tasks (email drafting, document summarisation) rather than a single one-off use, which is slightly above the bottom anchor. However, there's no repeatable workflow, no description of evaluating outputs critically, and no evidence of impact beyond 'saves some time' — this is closer to ad hoc personal use than an embedded system with accountability.",
+        "evidence": "\"I use ChatGPT for drafting emails and sometimes to help summarise long documents before meetings. It saves me some time on the writing side.\" No mention of evaluation, repeatable workflows, or measurable impact."
+      }
+    ],
+    "traitScores": [
+      {
+        "criterionId": "adversarial-grit",
+        "score": 3,
+        "rationale": "When asked to think about how their own system could be gamed, the candidate does identify a real, specific failure mode (vague items with short time estimates that run long) without needing much prompting beyond the question itself, which is above the bottom anchor. However, they explicitly say they haven't addressed it and only offer a vague, reactive fix ('ask the chair to enforce times'), rather than tracing the mechanism further or designing a structural safeguard — placing this at the score-3 anchor of finding failure modes when pointed at the right area but leaning on a standard, surface-level fix.",
+        "evidence": "\"If someone wanted to dominate the meeting, they could just put a vague item with a short time estimate and then talk for much longer — there's nothing stopping that. I haven't built in a way to catch it...\""
+      },
+      {
+        "criterionId": "epistemic-rigour",
+        "score": 3,
+        "rationale": "The candidate describes a decision (switching to a shared budget tool) that didn't fully solve the problem it was meant to solve, and offers a revised hypothesis (it's about check-in habits, not tooling). This shows some willingness to revise a belief when prompted. However, the revision is tentative ('I think... I'd probably look at') rather than a confident dismantling of the original assumption, and there's no discussion of how they'd actually find out whether the new hypothesis is correct.",
+        "evidence": "\"After a few months, the catering overrun still happened. I think the tool wasn't really the issue — it was more about people not checking it regularly. I'd probably look at making the check-ins part of the process next time.\""
+      },
+      {
+        "criterionId": "strategic-foresight",
+        "score": 2,
+        "rationale": "The candidate identifies a real dependency (single-venue reliance) but the answer stays close to the surface — 'we don't really have backup options' and 'we'd probably have to scramble' restates the obvious risk without tracing what specifically fails first, who is affected, or why this is the kind of risk nobody addresses. This is closer to the bottom anchor's 'misses the infrastructure layer' than the score-3 anchor's 'traces some downstream effects.'",
+        "evidence": "\"our reliance on one venue for most events could be a problem if they raised prices or became unavailable, since we don't really have backup options lined up. We'd probably have to scramble to find somewhere else on short notice.\""
+      },
+      {
+        "criterionId": "conceptual-engineering",
+        "score": 3,
+        "rationale": "The candidate takes a vague concept ('good communication') and proposes two concrete, measurable proxies (response time, meeting summaries written), which is a real decomposition rather than just restating the concept — matching the score-3 anchor. It falls short of a 5 because the decomposition is fairly thin (two metrics, generated quickly) and there's no discussion of whether these proxies might miss important aspects of 'good communication' or how they preserve the original intent.",
+        "evidence": "\"For something like 'good communication,' I'd say it means people respond to messages reasonably quickly and meetings have clear outcomes. So maybe you could measure average response time and whether meetings produce a written summary.\""
+      }
+    ],
+    "computed": {
+      "weightedScore": 2.736842105263158,
+      "readinessPercent": 54.73684210526316,
+      "culturalFitScore": 2.75,
+      "culturalFitPercent": 55,
+      "roleFlags": {
+        "red": [
+          "org-operations.financial-management-grants",
+          "org-design.strategy-prioritisation-support",
+          "field-awareness.ai-safety-landscape",
+          "ai-fluency.mindset-building-accountability"
+        ],
+        "green": [
+          "soft-skills.discretion-executive-support"
+        ]
+      },
+      "culturalFitFlags": {
+        "red": [
+          "strategic-foresight"
+        ],
+        "green": []
+      }
+    },
+    "scoringErrors": []
+  },
+  {
+    "id": "c3d4e5f6-3333-4ccc-8d33-333333333333",
+    "name": "Priya Patel",
+    "email": "priya.patel@example.com",
+    "roleId": "operations",
+    "submittedAt": "2026-06-12T11:05:00.000Z",
+    "linkedinUrl": "https://linkedin.com/in/priyapatel",
+    "cvText": "",
+    "hasCv": false,
+    "categoryAnswers": {
+      "org-operations": "I haven't managed a programme with a budget or multiple workstreams before — most of my experience is from university, where I organised a small student society's events (around 4 a year, maybe 20-30 people each). I kept track of who was doing what using a shared Google Doc and WhatsApp group.",
+      "org-design": "During my final year project, our group's research notes were scattered across emails, docs, and chat messages, so nobody could find anything. I set up a single shared Notion workspace with a consistent structure (one page per topic, dated entries) and asked everyone to move their notes there. It made it much easier to find things, though I had to keep reminding people to actually use it.",
+      "field-awareness": "I've read a fair amount about AI safety — I know about organisations like Anthropic, DeepMind, and OpenAI doing safety-relevant work inside labs, and that there are nonprofits like MIRI and groups doing AI policy work, often connected to effective altruism. I don't have a detailed picture of funding relationships or where the operational bottlenecks are for these orgs day to day.",
+      "soft-skills": "I haven't directly supported a senior leader, though as society treasurer I handled our small budget and some sensitive conversations with members about unpaid dues, which I tried to do tactfully. For writing, I'm proud of my dissertation literature review — my supervisor said it was one of the clearest syntheses of a messy literature she'd seen from an undergraduate, and I used a similar approach to write a one-page summary of our project for a department newsletter.",
+      "ai-fluency": "I use AI tools a lot — ChatGPT and Claude for drafting and editing my writing, and I built a small personal system where I keep a running prompt template for 'turn these messy notes into a structured summary' that I've refined over about six months based on what worked and didn't. I always read through and edit the output rather than using it directly, since early on I got burned by an AI-generated summary that subtly misrepresented a source, and I now specifically check quotes against the original."
+    },
+    "traitAnswers": {
+      "adversarial-grit": "The Notion workspace I built for my project group relies on everyone actually moving their notes there and not just leaving old material in email. If someone wanted to avoid scrutiny of their work — say, they hadn't done as much as they claimed — they could just keep their real notes elsewhere and only put a polished summary in the shared space, so it would look like the work existed without anyone being able to check the underlying detail. I hadn't thought about this until working through this question, but I think a way to catch it would be to check whether the 'depth' of someone's notes matches what they say they've done, not just whether something is present.",
+      "epistemic-rigour": "I was sure my dissertation's main argument was solid because three different papers I'd read all pointed the same way. My supervisor asked me to find a paper that argued against my position, and when I actually went looking, I found that the three papers I'd relied on all cited the same original study — so it wasn't three independent confirmations, it was one piece of evidence dressed up as three. I had mistaken 'multiple papers say this' for 'multiple independent lines of evidence say this,' and they're not the same thing at all. I rewrote that section to be much more cautious about what the evidence actually supported.",
+      "strategic-foresight": "Everyone in my project group assumed our shared Google Drive would always be accessible, since none of us had ever had a problem with it. But all of our source material, notes, and drafts lived only there with no local copies — if one person's account got locked out, or Google had an outage during our final submission week, we'd have had no way to access months of work right when we needed it most. It's the kind of thing that feels fine until the one week it really isn't, and because it had never gone wrong, nobody had thought to ask 'what's our backup.'",
+      "conceptual-engineering": "Take 'honesty' in the context of group academic work — on its own it's too vague to act on. I'd break it into things like: every claim in a shared document is traceable to a specific source (so people can check it), changes to shared work are visible (e.g. via version history, not silent edits), and people flag when they're uncertain about something rather than presenting it as settled. None of these alone is 'honesty', but together they make it much harder for someone to misrepresent what they've done or what the evidence shows, while still leaving room for genuine uncertainty and disagreement."
+    },
+    "criterionScores": [
+      {
+        "criterionId": "org-operations.project-programme-management",
+        "score": 1,
+        "rationale": "The candidate explicitly states they have not managed a programme with a budget or multiple workstreams, and the example given — organising a small student society's events tracked via a shared doc and group chat — is informal, small-scale, and lacks any of the markers of formal programme management (PM tools, multiple stakeholders, sustained multi-month ownership). This matches the bottom anchor's 'managed small personal projects; no formal programme management.'",
+        "evidence": "\"I haven't managed a programme with a budget or multiple workstreams before — most of my experience is from university, where I organised a small student society's events... I kept track of who was doing what using a shared Google Doc and WhatsApp group.\""
+      },
+      {
+        "criterionId": "org-operations.financial-management-grants",
+        "score": 1,
+        "rationale": "There is no organisational budget experience described — the closest reference (handling a small society budget as treasurer) appears in the soft-skills answer, not here, and even that is informal and student-society scale. On the evidence in this response, the candidate has no experience with organisational budgets, matching the bottom anchor exactly.",
+        "evidence": "No mention of budgets, grants, or financial administration in this response. (The soft-skills answer separately mentions a small student-society budget, but this is informal and not at organisational scale.)"
+      },
+      {
+        "criterionId": "org-operations.hiring-talent-pipelines",
+        "score": 2,
+        "rationale": "No hiring experience is described anywhere in the response. Without any evidence, this should default toward the bottom anchor; scored slightly above 1 to reflect that the candidate's broader profile (society leadership, project coordination) suggests at least passive exposure to selection/coordination processes, but this is an assumption — interviewers should directly probe hiring experience, as none was demonstrated.",
+        "evidence": "No evidence of hiring or talent pipeline experience was provided in the response."
+      },
+      {
+        "criterionId": "org-design.strategy-prioritisation-support",
+        "score": 2,
+        "rationale": "The candidate describes a useful organisational fix (consolidating scattered notes into a shared Notion workspace) but this is a personal-productivity/documentation improvement for a small project group, not facilitation of planning meetings or synthesis of inputs into recommendations for decision-makers. It's above pure task execution but well short of the score-3 anchor.",
+        "evidence": "\"I set up a single shared Notion workspace with a consistent structure... It made it much easier to find things, though I had to keep reminding people to actually use it.\" No evidence of planning facilitation or synthesising recommendations for others."
+      },
+      {
+        "criterionId": "org-design.systems-process-design",
+        "score": 1,
+        "rationale": "While the Notion workspace shows some initiative, the scope is a single university project group over a short period, with the candidate noting ongoing adoption problems ('had to keep reminding people'). This is closer to 'uses systems others have built; hasn't designed new ones' than to documenting and improving an existing organisational process — the underlying problem (disorganised notes) and fix (a shared doc) are both very small-scale and informal.",
+        "evidence": "\"our research notes were scattered across emails, docs, and chat messages, so nobody could find anything. I set up a single shared Notion workspace... I had to keep reminding people to actually use it.\""
+      },
+      {
+        "criterionId": "field-awareness.ai-safety-landscape",
+        "score": 3,
+        "rationale": "The candidate can name several major labs and nonprofits relevant to AI safety and correctly situates some of them within the EA/longtermist ecosystem, which meets the score-3 anchor's bar of naming major orgs and understanding the broader context. They explicitly acknowledge not understanding funding relationships or operational bottlenecks, which is why this doesn't reach a 5.",
+        "evidence": "\"I know about organisations like Anthropic, DeepMind, and OpenAI doing safety-relevant work inside labs, and that there are nonprofits like MIRI and groups doing AI policy work, often connected to effective altruism. I don't have a detailed picture of funding relationships or where the operational bottlenecks are\""
+      },
+      {
+        "criterionId": "soft-skills.discretion-executive-support",
+        "score": 2,
+        "rationale": "The candidate has not supported a senior leader, but does describe handling a small amount of sensitive information (member dues conversations) with some care as a student treasurer. This is a step above 'no experience supporting senior leaders' but well below the score-3 anchor's 'worked closely with a manager or director.'",
+        "evidence": "\"I haven't directly supported a senior leader, though as society treasurer I handled our small budget and some sensitive conversations with members about unpaid dues, which I tried to do tactfully.\""
+      },
+      {
+        "criterionId": "soft-skills.written-communication",
+        "score": 3,
+        "rationale": "The candidate's dissertation literature review received specific praise from a supervisor for clarity in synthesising a messy literature, and they applied a similar approach to a department newsletter summary — this matches the score-3 anchor of writing clear documents and adapting style to audience. It doesn't reach a 5 because these are academic/student outputs rather than organisational memos, proposals, or board/grant-level documents.",
+        "evidence": "\"my dissertation literature review — my supervisor said it was one of the clearest syntheses of a messy literature she'd seen from an undergraduate, and I used a similar approach to write a one-page summary of our project for a department newsletter\""
+      },
+      {
+        "criterionId": "ai-fluency.mindset-building-accountability",
+        "score": 3,
+        "rationale": "The candidate has a repeatable, iterated workflow (a refined prompt template used over six months), evaluates outputs critically (always reads and edits, learned from a specific past failure about misrepresented sources), and can describe how their approach has evolved. This matches the score-3 anchor well. It doesn't reach a 5 because the workflow is personal rather than embedded in a team/organisational system with measurable impact on others' work, and there's no evidence of having led others to adopt AI.",
+        "evidence": "\"I built a small personal system where I keep a running prompt template... that I've refined over about six months based on what worked and didn't... I now specifically check quotes against the original\" after \"I got burned by an AI-generated summary that subtly misrepresented a source\""
+      }
+    ],
+    "traitScores": [
+      {
+        "criterionId": "adversarial-grit",
+        "score": 5,
+        "rationale": "The candidate, working through the question itself, identifies a non-obvious gaming vector in a system they personally built (presenting a polished summary while hiding thin underlying work) — and explicitly notes they hadn't considered this until prompted by the question, then immediately proposes a structural detection method (checking depth-of-notes against claimed work) rather than a vague fix. The honest acknowledgment that the insight only emerged through the exercise, combined with landing on the actual mechanism rather than a generic answer, reflects the 'slightly unsettled that others missed it' quality of the top anchor — applied successfully even though it required the prompt to surface.",
+        "evidence": "\"If someone wanted to avoid scrutiny of their work... they could just keep their real notes elsewhere and only put a polished summary in the shared space... I hadn't thought about this until working through this question, but I think a way to catch it would be to check whether the 'depth' of someone's notes matches what they say they've done\""
+      },
+      {
+        "criterionId": "epistemic-rigour",
+        "score": 4,
+        "rationale": "The candidate describes confidently believing their argument was well-supported by 'three independent' sources, then — prompted by a supervisor, but pursuing it themselves — discovered the sources were not independent at all, fundamentally undermining their evidentiary basis. They articulate the precise epistemic error ('multiple papers say this' vs 'multiple independent lines of evidence say this') and revised their work accordingly. This is a genuine, specific dismantling of their own position. Scored 4 rather than 5 because the trigger was an external prompt (the supervisor's request) rather than the candidate's own initiative to seek disconfirming evidence.",
+        "evidence": "\"I found that the three papers I'd relied on all cited the same original study — so it wasn't three independent confirmations, it was one piece of evidence dressed up as three... I had mistaken 'multiple papers say this' for 'multiple independent lines of evidence say this'\""
+      },
+      {
+        "criterionId": "strategic-foresight",
+        "score": 5,
+        "rationale": "Unprompted, the candidate identifies a genuinely boring, structural single point of failure (all project work living only in one cloud account with no backups), explains precisely why it's invisible ('feels fine until the one week it really isn't... it had never gone wrong, nobody had thought to ask'), and traces the concrete consequence (total loss of access during the highest-stakes week). This is exactly the rubric's ideal: no speculative scenarios, just a structural dependency that 'feels obvious in retrospect.'",
+        "evidence": "\"all of our source material, notes, and drafts lived only there with no local copies — if one person's account got locked out, or Google had an outage during our final submission week, we'd have had no way to access months of work right when we needed it most... because it had never gone wrong, nobody had thought to ask 'what's our backup.'\""
+      },
+      {
+        "criterionId": "conceptual-engineering",
+        "score": 4,
+        "rationale": "The candidate decomposes 'honesty' in collaborative work into three distinct, checkable components (traceability of claims to sources, visibility of changes via version history, explicit flagging of uncertainty), each addressing a different way honesty can fail, while explicitly preserving room for genuine disagreement and uncertainty rather than over-defining the concept. This is a solid multi-component decomposition that maintains the original intent. It falls just short of a 5 because the components, while good, are relatively conventional research-integrity practices rather than a more novel or surprising decomposition, and the candidate doesn't revisit or stress-test the decomposition itself.",
+        "evidence": "\"every claim in a shared document is traceable to a specific source... changes to shared work are visible... people flag when they're uncertain about something rather than presenting it as settled. None of these alone is 'honesty', but together they make it much harder for someone to misrepresent what they've done\""
+      }
+    ],
+    "computed": {
+      "weightedScore": 1.8421052631578947,
+      "readinessPercent": 36.84210526315789,
+      "culturalFitScore": 4.5,
+      "culturalFitPercent": 90,
+      "roleFlags": {
+        "red": [
+          "org-operations.project-programme-management",
+          "org-operations.financial-management-grants",
+          "org-design.systems-process-design"
+        ],
+        "green": []
+      },
+      "culturalFitFlags": {
+        "red": [],
+        "green": [
+          "adversarial-grit",
+          "epistemic-rigour",
+          "strategic-foresight",
+          "conceptual-engineering"
+        ]
+      }
+    },
+    "scoringErrors": []
+  }
+]

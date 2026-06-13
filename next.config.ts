@@ -1,7 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  basePath: "/calibre-ai-safety-hackathon",
+  assetPrefix: "/calibre-ai-safety-hackathon/",
+  images: {
+    unoptimized: true,
+  },
+  turbopack: {
+    root: __dirname,
+  },
 };
 
 export default nextConfig;
