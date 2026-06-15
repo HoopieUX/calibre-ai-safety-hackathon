@@ -43,6 +43,10 @@ transparent for candidates and more consistent for recruiters.
 - **`lib/scoring.ts`** — weighted scoring, readiness %, and flag derivation
 - **`lib/storage.ts`** / **`data/candidates.json`** — simple JSON-file storage of candidates
 - **`lib/pdf.ts`** — CV text extraction from uploaded PDFs
+- **`screenshots/`** — app screenshots, plus `rubric-cultural-fit.png`, a colour-coded view of
+  the original scoring spreadsheet the cultural-fit rubric was designed in (red/yellow/green
+  columns for score 1/3/5, plus weight and notes columns) — this is the source the rubric in
+  `lib/rubric/operations.ts` and [RUBRIC.md](RUBRIC.md) was built from
 
 ## Scoring rubric
 
