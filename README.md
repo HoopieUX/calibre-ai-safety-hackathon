@@ -97,7 +97,7 @@ actual answer.
 ## Rubric
 
 Candidate answers are scored against a written rubric of 1/3/5 anchor descriptions per
-criterion — see [RUBRIC.md](RUBRIC.md) for the full set of criteria, weights, and anchors used
+criterion — see [Rubric.md](Rubric.md) for the full set of criteria, weights, and anchors used
 for both role-specific scoring and the four cultural-fit judgment traits.
 
 ## Validation
