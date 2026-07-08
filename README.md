@@ -9,7 +9,7 @@ recruiters a dashboard of per-criterion scores, quoted evidence, and flags.
 - [Overview](#overview)
 - [Problem](#problem)
 - [Solution](#solution)
-- [Walkthrough](#walkthrough)
+- [User Journeys](#walkthrough)
 - [Rubric](#rubric)
 - [Validation](#validation)
 - [Limitations and what's next](#limitations-and-whats-next)
@@ -55,7 +55,7 @@ Who it's for:
 - **People trying to break in** — from any background, finally see what's actually being
   assessed and where the gaps are; the tool that judges you also coaches you.
 
-## Walkthrough
+## User Journeys
 
 **Candidate flow:**
 
