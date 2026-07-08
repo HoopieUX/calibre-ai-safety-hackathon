@@ -87,8 +87,10 @@ Candidate answers are scored on two axes — role readiness and cultural fit —
 behavioural anchors per criterion, so two reviewers scoring the same answer land on the same
 score. The full rubric isn't published here, to keep the assessment meaningful rather than
 something to write answers to — but here's a glimpse of the scoring structure it's built from:
+<img width="2000" height="1414" alt="image" src="https://github.com/user-attachments/assets/5ce9742b-560d-4794-9827-34294cd3e741" />
 
 ![Rubric spreadsheet, partial view](screenshots/rubric-cultural-fit.png)
+
 
 ## Validation
 
