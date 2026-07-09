@@ -9,7 +9,7 @@ recruiters a dashboard of per-criterion scores, quoted evidence, and flags.
 - [Overview](#overview)
 - [Problem](#problem)
 - [Solution](#solution)
-- [Walkthrough](#walkthrough)
+- [User Journeys](#walkthrough)
 - [Rubric](#rubric)
 - [Validation](#validation)
 - [Limitations and what's next](#limitations-and-whats-next)
@@ -55,7 +55,7 @@ Who it's for:
 - **People trying to break in** — from any background, finally see what's actually being
   assessed and where the gaps are; the tool that judges you also coaches you.
 
-## Walkthrough
+## User Journeys
 
 **Candidate flow:**
 
@@ -87,8 +87,10 @@ Candidate answers are scored on two axes — role readiness and cultural fit —
 behavioural anchors per criterion, so two reviewers scoring the same answer land on the same
 score. The full rubric isn't published here, to keep the assessment meaningful rather than
 something to write answers to — but here's a glimpse of the scoring structure it's built from:
+<img width="2000" height="1414" alt="image" src="https://github.com/user-attachments/assets/5ce9742b-560d-4794-9827-34294cd3e741" />
 
 ![Rubric spreadsheet, partial view](screenshots/rubric-cultural-fit.png)
+
 
 ## Validation
 
