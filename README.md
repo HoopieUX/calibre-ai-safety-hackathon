@@ -9,7 +9,7 @@ recruiters a dashboard of per-criterion scores, quoted evidence, and flags.
 - [Overview](#overview)
 - [Problem](#problem)
 - [Solution](#solution)
-- [User Journeys](#walkthrough)
+- [User Journeys](#user-journeys)
 - [Rubric](#rubric)
 - [Validation](#validation)
 - [Limitations and what's next](#limitations-and-whats-next)
