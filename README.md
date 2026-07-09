@@ -128,9 +128,9 @@ Following directly from the hedge above, the honest next steps are:
 
 ## Related
 
-**adaptive-interview-poc** [link tbc] — a standalone, early-stage proof of concept exploring a
-more conversational, adaptive version of the candidate interview. A separate project, not part of
-this prototype.
+**[adaptive-interview-concept](https://github.com/HoopieUX/adaptive-interview-concept)** — a
+standalone, early-stage proof of concept exploring a more conversational, adaptive version of the
+candidate interview. A separate project, not part of this prototype.
 
 ## Built with
 
